@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+
+	<header class="common-section header-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<nav class="navbar navbar-light">
+							<a class="navbar-brand logo" href="#">
+								<img  src="images/logo.png" class="img-fluid" >
+							</a>
+							<div class="nav-links-sec">
+							<a href="" class="nav-links active">
+								<img src="images/menu1.png" class="img-fluid">
+								<p>Dashboard</p>
+							</a>
+							<a href="" class="nav-links">
+								<img src="images/menu2.png" class="img-fluid">
+								<p>Lead Status</p>
+							</a>
+							<a href="" class="nav-links">
+								<img src="images/menu3.png" class="img-fluid">
+								<p>Ledger</p>
+							</a>
+							<a href="" class="nav-links">
+								<img src="images/menu4.png" class="img-fluid">
+								<p>Logout</p>
+							</a>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		<p class="h1 font-weight-semibold">Growth Partner</p>
+		<img src="images/semicircle-img.png" class="semicircle-img">
+	</header>
+
+	<section class="main-section">
+		<section class="username-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-12">
+							<p class="p1">Welcome, <br> <span class="text-theme user-name">Rahul!</span></p>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<button type="button" class="btn add-friend-btn" data-toggle="modal" data-target="#exampleModal">
+								<div class="icon"></div>
+								<img src="images/add-friend-img.png">
+								<p class="p3">Add Friend</p>
+							</button>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="profile-and-summary-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 profile">
+						<p class="p2">Profile Overview</p>
+						<div class="profile-overview-sec">
+							<div class="edit-btn-sec">
+								<button type="button" class="btn edit-btn" data-toggle="modal" data-target="#editModal"><u>Edit</u></button>
+							</div>
+							<div class="profile-photo-sec">
+								<img src="images/profile-photo-img.png" class="img-fluid">
+							</div>
+							<ul class="profile-data-ul-sec">
+								<li>
+									<p class="p5 elements">Name</p>
+									<p class="p3 font-weight-medium data">Rahul Singh</p>
+								</li>
+								<li>
+									<p class="p5 elements">Mobile</p>
+									<p class="p3 font-weight-medium data">9845369958</p>
+								</li>
+								<li>
+									<p class="p5 elements">Bank Ac No</p>
+									<p class="p3 font-weight-medium data">7889658521</p>
+								</li>
+								<li>
+									<p class="p5 elements">IFFC Code</p>
+									<p class="p3 font-weight-medium data">MAHA121</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-8 col-md-12 summary">
+						<p class="p2">Summary For The Month</p>
+						<img  class="tooltip-left" src="images/tooltip-img.png" data-toggle="tooltip" data-placement="left" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+
+						<div class="summary-sec">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 divider">
+									<div class="lead-sec">
+										<p class="p2">Lead Added</p>
+										<p class="value font-weight-bold">75</p>
+									</div>
+									<div class="convero-sec">
+										<p class="p2">Lead Convero</p>
+										<p class="value font-weight-bold">10</p>
+									</div>
+									
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="trade-sec">
+										<p class="p2">Client Traded</p>
+										<p class="value font-weight-bold">20</p>
+									</div>
+									<div class="brokerag">
+										<p class="p2">Brokerag</p>
+										<p class="value font-weight-bold"><span class="rs-text">&#x20B9; </span>129</p>
+									</div>
+								</div>
+								<!-- <div class="col-lg-6">
+									<div class="lead-sec">
+										<p class="p2">Lead Added</p>
+										<p class="lead-value value">75</p>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="trade-sec">
+										<p class="p2">Client Traded</p>
+										<p class="trade-value value">20</p>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="convero-sec">
+										<p class="p2">Lead Convero</p>
+										<p class="convero-value value">10</p>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="brokerag">
+										<p class="p2">Brokerag</p>
+										<p class="brokerag-value value"><span class="rs-text">₹ </span>129</p>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="common-section ledger-and-graph-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12">
+						<p class="p2">Your Ledger</p>
+ 					<img  class="tooltip-right" src="images/tooltip-img.png" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+						<div class="ledger">
+							<div class="col-lg-12">
+								<div class="credit-1-sec">
+									<p class="p3">Total Credit</p>
+									<h1 class="h1 font-weight-medium"><span class="rs-text">₹ </span> 1,879</h1>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="credit-2-sec">
+									<p class="p3">Total Credit</p>
+									<h1 class="h1 font-weight-medium"><span class="rs-text">₹ </span> 2,344</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8 col-md-12 graph-heading">
+						<p class="p2">3 Month Summary</p>
+						<div class="graph">Content needs to be added</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+		
+	  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="add-friend">
+				<div class="modal-header">
+					<p class="h3">Add friend</p>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+				</div>
+				<div class="modal-body">
+					<form onsubmit="add_friend(event)">
+						<div class="form-group">
+						  <label for="exampleInputPassword1">Enter your friend's name</label>
+						  <input type="text" class="form-control username" id="exampleInputPassword1" placeholder="Enter name" required>
+						</div>
+						<div class="form-group">
+						  <label for="exampleInputEmail1">Enter your friend's email</label>
+						  <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+						</div>
+						<button type="submit" class="modal-btn-theme-fill font-weight-semibold">Add Friend</button>
+					  </form>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+		  	<div class="modal-header">
+		  		<h3 class="h3">Edit Profle</h3>
+		  		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		  	</div>
+			<div class="modal-body">
+				<div class="edit-photo">
+					<img src="images/profile-photo-img.png">
+					<input type="file" class="profile-photo-upload">
+				</div>
+			 	<div class="edit-data">
+		      		<label>Name</label>
+					<input type="text" class="form-control name" placeholder="Enter name">
+					<label>Mobile</label>
+					<input type="text" class="form-control name" placeholder="Enter Mobile">
+					<label>Bank Ac No</label>
+					<input type="text" class="form-control name" placeholder="Enter Bank Ac No">
+					<label>IFFC Code</label>
+					<input type="text" class="form-control name" placeholder="Enter IFFC Code">
+		      	</div>
+		      	<button class="modal-btn-theme-fill edit-save">Save</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-body">
+			 	<div class="successful">
+		      		<img src="images/check-img.png">
+		      		<p>Your request has been successfully sent!</p>
+		      		<button type="button" class="btn modal-btn-theme-fill home-page" id="homePage">Back to home</button>
+		      	</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+
+	<script src="script/jquery.min.js"></script>
+	<script src="script/bootstrap.min.js"></script>	
+	<script src="script/bootstrap.bundle.min.js"></script>
+	<script src="script/popper.min"></script>	
+	<script src="script/custom.js"></script>
+
+		<script>
+			function add_friend(event){
+				event.preventDefault();
+				$('#exampleModal').modal('hide');
+				$('#successModal').modal('show');
+			}
+		</script>
+</body>
+</html>
